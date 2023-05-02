@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Saber.Vendors.Template</RootNamespace>
+    <AssemblyName>Saber.Vendors.Template</AssemblyName>
+    <Authors>Mark Entingh</Authors>
+    <Company>Datasilk</Company>
+    <Description>A vendor plugin for Saber (https://saber.datasilk.io/saber) that shows off various plugin features and gives developers a starting point to creating their own plugins.</Description>
+    <Copyright>2021 Datasilk</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://www.github.com/Datasilk/Saber-Template</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <FileVersion>1.0.0</FileVersion>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <Version>1.0.0</Version>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Saber.Core" Version="1.0.9.5" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
