@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Data.SqlClient;
-using Saber.Core;
+﻿using System.Collections.Generic;
 
 namespace Query
 {
     public static class MyTable
     {
 
-        public static List<Models.MyTable> GetList()
+        public static List<Models.MyTable> GetList(int userId)
         {
-            return Sql.Populate<Models.MyTable>("MyTable_GetList");
+            return Sql.Populate<Models.MyTable>("MyTable_GetList", new { userId });
         }
 
         public static void Add(int userId, string text)
