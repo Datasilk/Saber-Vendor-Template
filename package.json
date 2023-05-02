@@ -1,5 +1,5 @@
 {
-  "name": "datasets",
+  "name": "template",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datasilk/saber-datasets.git"
+    "url": "git+https://github.com/datasilk/saber-vendor-template.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/datasilk/saber-datasets/issues"
+    "url": "https://github.com/datasilk/saber-vendor-template/issues"
   },
-  "homepage": "https://github.com/datasilk/saber-datasets#readme",
+  "homepage": "https://github.com/datasilk/saber-vendor-template#readme",
   "devDependencies": {
     "7zip-bin": "^5.0.3",
     "gulp": "^4.0.2",
